@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Location Privacy Risk Analyzer – Upload</title>
+  </head>
+  <body>
+    <h1>Location Privacy Risk Analyzer</h1>
+    <p>Upload a GPS trace file (.gpx or JSON) to analyze privacy risks.</p>
+
+    <!--
+    WHAT YOU NEED TO ADD/EDIT IN THIS TEMPLATE (NO BACKEND CODE HERE):
+
+    1. File upload form
+       - Create an HTML <form> element that:
+           * Uses method="POST"
+           * Uses enctype="multipart/form-data"
+           * Has its action pointing to the Flask route that handles analysis
+             (e.g., url_for('analyze') in the Jinja template syntax).
+       - Inside the form, add:
+           * A file input field that accepts .gpx and .json files.
+           * A submit button (e.g., "Analyze my route").
+
+    2. Basic options (optional but nice)
+       - Add checkboxes or select inputs for options like:
+           * "Use basic heuristics only" vs "Use clustering (slower)".
+           * "Generate detailed map" (can be a boolean).
+       - These should be simple HTML inputs whose values will be read in `app.py`.
+
+    3. Error or status messages
+       - Optionally show flash messages from Flask (e.g., when no file is selected).
+       - Use Jinja syntax (e.g., looping over messages) to display them.
+
+    4. Link to sample/demo
+       - Optionally include a link or button that goes to a demo route
+         (e.g., url_for('demo')) so users can see a precomputed example without uploading.
+    -->
+  </body>
+</html>

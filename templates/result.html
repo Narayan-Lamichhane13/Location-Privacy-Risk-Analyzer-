@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Location Privacy Risk Analyzer – Results</title>
+  </head>
+  <body>
+    <h1>Analysis Results</h1>
+
+    <p>This page will display:</p>
+    <ul>
+      <li>A privacy risk score (0–100)</li>
+      <li>Detected sensitive locations (home, work, etc.)</li>
+      <li>An interactive map with highlighted risk zones</li>
+      <li>Recommendations to reduce re-identification risk</li>
+    </ul>
+
+    <!--
+    WHAT YOU NEED TO ADD/EDIT IN THIS TEMPLATE:
+
+    1. Display the risk score
+       - Add a spot to show the numeric risk score (0–100) passed from `app.py`.
+       - For example, display it prominently and optionally classify it
+         as "Low", "Medium", or "High" risk based on simple thresholds.
+
+    2. Show detected sensitive locations
+       - Loop over a list of sensitive locations (provided by `analysis.py` through `app.py`), and display:
+           * The label (e.g., "Home", "Work", "Gym").
+           * The approximate coordinates or a vague description if you want to avoid precision.
+           * Simple stats like number of visits or typical times, if provided.
+
+    3. Show recommendations
+       - Loop over a list of recommendation strings and display them in a bullet list.
+       - Make the language clear and user-friendly (e.g., "Trim the first/last 500m around home").
+
+    4. Embed or link to the Folium map
+       - You will get the map HTML file path (e.g., under `static/maps/...`) from `app.py`.
+       - Choose one of the approaches:
+           * Use an <iframe> to embed the map HTML directly on this page.
+           * Or provide a link/button that opens the map in a new tab.
+
+    5. Navigation / repeat analysis
+       - Add a button or link to go back to the upload page so users can analyze another file.
+    -->
+  </body>
+</html>

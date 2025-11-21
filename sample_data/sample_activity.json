@@ -1,0 +1,29 @@
+{
+  "activity_id": 1234567890,
+  "name": "Morning Ride",
+  "start_time": "2025-01-01T07:30:00Z",
+  "timezone": "UTC",
+  "athlete": {
+    "id": 987654321,
+    "username": "demo_rider"
+  },
+    "streams": {
+      "latlng": [
+        [37.77490, -122.41940],
+        [37.77505, -122.41955],
+        [37.77520, -122.41970],
+        [37.77535, -122.41985],
+        [37.77550, -122.42000]
+      ],
+      "time": [0, 5, 10, 15, 20],
+      "distance": [0, 15, 30, 45, 60]
+    },
+  "summary": {
+    "distance_m": 60,
+    "elapsed_time_s": 20,
+    "average_speed_mps": 3.0
+  }
+}
+
+
+

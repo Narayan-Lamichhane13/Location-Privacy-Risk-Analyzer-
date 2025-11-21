@@ -1,0 +1,10 @@
+flask
+folium
+scikit-learn
+gpxpy
+pandas
+
+
+
+
+
